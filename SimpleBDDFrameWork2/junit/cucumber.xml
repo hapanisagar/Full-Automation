@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="5.570336">
+<testcase classname="Facebook Register" name="Facebook valid Registration test" time="5.570336">
+<failure message="java.lang.NullPointerException&#13;&#10;&#9;at StepDefinations.Register.user_click_on_Create_new_account_link(Register.java:14)&#13;&#10;&#9;at ✽.When User click on Create new account link(src/test/resources/Features/Register.feature:8)&#13;&#10;"><![CDATA[When User click on Create new account link..................................failed
+Then User on register page and verify register page title...................skipped
+Then Enter first name and surname...........................................skipped
+Then Enter email id.........................................................skipped
+Then Enter new password.....................................................skipped
+Then Enter date of birth....................................................skipped
+Then Select gender as male..................................................skipped
+Then Click on Sign up button................................................skipped
+Then user able to register succesfully......................................skipped
+Then User close the Browser.................................................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at StepDefinations.Register.user_click_on_Create_new_account_link(Register.java:14)
+	at ✽.When User click on Create new account link(src/test/resources/Features/Register.feature:8)
+]]></failure>
+</testcase>
+</testsuite>

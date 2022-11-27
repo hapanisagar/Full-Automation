@@ -1,0 +1,92 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 3,
+            "value": "# Simple Hard coded Scenario"
+          }
+        ],
+        "before": [
+          {
+            "result": {
+              "duration": 4680675400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Nopcommerce Valid Login Test",
+        "description": "",
+        "id": "nopcommerce-login;nopcommerce-valid-login-test",
+        "after": [
+          {
+            "result": {
+              "duration": 657712700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 83306200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User on login page and  verify login page title",
+            "match": {
+              "location": "Login.user_on_login_page_and_verify_login_page_title()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 992298400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enter username and password and click on login button",
+            "match": {
+              "location": "Login.user_enter_username_and_password_and_click_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9222000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User is on Home page of user",
+            "match": {
+              "location": "Login.user_is_on_Home_page_of_user()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@Login"
+          }
+        ]
+      }
+    ],
+    "name": "Nopcommerce Login",
+    "description": "",
+    "id": "nopcommerce-login",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/Login.feature"
+  }
+]

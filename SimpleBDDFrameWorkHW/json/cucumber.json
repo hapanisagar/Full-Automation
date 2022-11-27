@@ -1,0 +1,211 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3166844600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User able to open browser",
+            "match": {
+              "location": "RegisterStepDefinations.user_able_to_open_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1655163000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Enter Url",
+            "match": {
+              "location": "RegisterStepDefinations.enter_Url()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "Nopcommerce Valid Regitration test    // or User enter valid data",
+        "description": "",
+        "id": "nopcommerce-register;nopcommerce-valid-regitration-test----//-or-user-enter-valid-data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1099511400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User click on register link",
+            "match": {
+              "location": "RegisterStepDefinations.user_click_on_register_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 12405700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User on register page and verify register page title",
+            "match": {
+              "location": "RegisterStepDefinations.user_on_register_page_and_verify_register_page_title()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 13996800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "select gender as male",
+            "match": {
+              "location": "RegisterStepDefinations.select_gender_as_male()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 165030900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "enter first name and last name",
+            "match": {
+              "location": "RegisterStepDefinations.enter_first_name_and_last_name()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 206551700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "enter Date of birth",
+            "match": {
+              "location": "RegisterStepDefinations.enter_Date_of_birth()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 108967000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "enter email id",
+            "match": {
+              "location": "RegisterStepDefinations.enter_email_id()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 99132300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "enter company detail",
+            "match": {
+              "location": "RegisterStepDefinations.enter_company_detail()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 62991700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Uncheck  in newsletter field box",
+            "match": {
+              "location": "RegisterStepDefinations.uncheck_in_newsletter_field_box()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 27500,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "enter Password",
+            "match": {
+              "location": "RegisterStepDefinations.enter_Password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 172258300,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "enter confirm password",
+            "match": {
+              "location": "RegisterStepDefinations.enter_confirm_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 390237900,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "click on register button",
+            "match": {
+              "location": "RegisterStepDefinations.click_on_register_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 50600,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user able to register succesfully.",
+            "match": {
+              "location": "RegisterStepDefinations.user_able_to_register_succesfully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 650516900,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User close the Browser",
+            "match": {
+              "location": "RegisterStepDefinations.user_close_the_Browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Nopcommerce Register",
+    "description": "",
+    "id": "nopcommerce-register",
+    "keyword": "Feature",
+    "uri": "C:/Users/SAGAR/IdeaProjects/SimpleBDDFrameWorkHW/src/test/resources/Features/Register.feature"
+  }
+]

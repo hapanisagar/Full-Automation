@@ -1,0 +1,151 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5450906500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Facebook valid Registration test",
+        "description": "",
+        "id": "facebook-register;facebook-valid-registration-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 119429700,
+              "error_message": "java.lang.NullPointerException\r\n\tat StepDefinations.Register.user_click_on_Create_new_account_link(Register.java:14)\r\n\tat ✽.When User click on Create new account link(src/test/resources/Features/Register.feature:8)\r\n",
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "User click on Create new account link",
+            "match": {
+              "location": "Register.user_click_on_Create_new_account_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "User on register page and verify register page title",
+            "match": {
+              "location": "Register.user_on_register_page_and_verify_register_page_title()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "Enter first name and surname",
+            "match": {
+              "location": "Register.enter_first_name_and_surname()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "Enter email id",
+            "match": {
+              "location": "Register.enter_email_id()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "Enter new password",
+            "match": {
+              "location": "Register.enter_new_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "Enter date of birth",
+            "match": {
+              "location": "Register.enter_date_of_birth()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "Select gender as male",
+            "match": {
+              "location": "Register.select_gender_as_male()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "Click on Sign up button",
+            "match": {
+              "location": "Register.click_on_Sign_up_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "user able to register succesfully.",
+            "match": {
+              "location": "Register.user_able_to_register_succesfully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "User close the Browser",
+            "match": {
+              "location": "Register.user_close_the_Browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@Register"
+          }
+        ]
+      }
+    ],
+    "name": "Facebook Register",
+    "description": "\r\n//Background:\r\n  //Given User able to open browser\r\n  //And Enter url",
+    "id": "facebook-register",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/Register.feature"
+  }
+]

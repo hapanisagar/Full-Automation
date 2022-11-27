@@ -1,0 +1,70 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 3,
+            "value": "# Simple Hard coded Scenario"
+          }
+        ],
+        "line": 5,
+        "name": "Nopcommerce Login Test",
+        "description": "",
+        "id": "nopcommerce-login;nopcommerce-login-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4739595000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on login page and verify the Login page Title",
+            "match": {
+              "location": "Login.user_is_on_login_page_and_verify_the_Login_page_Title()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 920792600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User Enter Username and Password and click on Login",
+            "match": {
+              "location": "Login.user_Enter_Username_and_Password_and_click_on_Login()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 17700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User is on Homepage of User",
+            "match": {
+              "location": "Login.user_is_on_Homepage_of_User()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@Login"
+          }
+        ]
+      }
+    ],
+    "name": "Nopcommerce Login",
+    "description": "",
+    "id": "nopcommerce-login",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/Login.feature"
+  }
+]

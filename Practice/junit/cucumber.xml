@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="5.660405">
+<testcase classname="Nopcommerce Login" name="Nopcommerce Login Test" time="5.660405">
+<system-out><![CDATA[Given User is on login page and verify the Login page Title.................passed
+When User Enter Username and Password and click on Login....................passed
+Then User is on Homepage of User............................................passed
+]]></system-out>
+</testcase>
+</testsuite>
